@@ -3,7 +3,7 @@ const app = express();
 
 // 設定 EJS 為模板引擎
 app.set('view engine', 'ejs');
-app.set('views', './view');
+app.set('view', './view');
 
 // 三國英雄資料
 const heroes = ['關羽', '張飛', '趙雲', '馬超', '黃忠'];
