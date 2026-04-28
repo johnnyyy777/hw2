@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HW2 - 三國英雄清單</title>
+</head>
+<body>
+
+  
+  <h1>學號：<%= studentId %></h1>
+
+  <h2><%= title %></h2>
+
+  <ul>
+    <% heroes.forEach(function(hero) { %>
+      <li><%= hero %></li>
+    <% }); %>
+  </ul>
+
+</body>
+</html>
